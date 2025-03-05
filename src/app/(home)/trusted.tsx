@@ -3,9 +3,9 @@ import React from 'react'
 export default function Trusted() {
   return (
     <div>
-   <section className="py-12 bg-gray-100 text-center">
+   <section className="py-12 max-w-[1400px] mx-auto text-center">
         <h2 className="text-3xl font-semibold">Trusted By</h2>
-        <div className="flex flex-wrap justify-center items-center gap-16 mt-8 px-6">
+        <div className="flex flex-wrap justify-center items-center gap-14 mt-8 px-6">
           <img src="/logo1.png" alt="Company 1" className="h-12"/>
           <img src="/logo2.png" alt="Company 2" className="h-12"/>
           <img src="/logo3.png" alt="Company 3" className="h-12"/>
